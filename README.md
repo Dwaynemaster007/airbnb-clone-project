@@ -64,3 +64,18 @@ Identifying and documenting the design properties from a mockup is a fundamental
 * **Primary Font:** Circular, Medium (500), 16px
 * **Headings:** Circular, Bold (700), 24px-32px
 * **Secondary Text:** Circular, Book (400), 14px
+
+---
+
+### Project Roles and Responsibilities
+
+A collaborative and well-defined team structure is essential for the successful completion of a complex project like this. Each role has a specific set of responsibilities that ensures the project moves forward efficiently and effectively.
+
+* **Project Manager:** Oversees the project timeline, coordinates team activities, and manages deliverables to ensure objectives are met on schedule.
+* **Frontend Developers:** Implements the user interface (UI) components, ensuring a responsive and visually accurate design based on the Figma mockups.
+* **Backend Developers:** Builds the application programming interfaces (APIs), manages the database, and implements the core business logic.
+* **Designers:** Creates the visual mockups, maintains the design system, and ensures an optimal user experience (UX) and overall aesthetic.
+* **QA/Testers:** Writes test cases, performs comprehensive testing to identify bugs and issues, and reports them to the development team.
+* **DevOps Engineers:** Manages the project's deployment, sets up continuous integration/continuous deployment (CI/CD) pipelines, and maintains server infrastructure.
+* **Product Owner:** Defines the project requirements, prioritizes features based on business goals, and represents the stakeholders.
+* **Scrum Master:** Facilitates agile processes, helps remove blockers for the team, and organizes key meetings like stand-ups and sprint reviews.
