@@ -79,3 +79,13 @@ A collaborative and well-defined team structure is essential for the successful 
 * **DevOps Engineers:** Manages the project's deployment, sets up continuous integration/continuous deployment (CI/CD) pipelines, and maintains server infrastructure.
 * **Product Owner:** Defines the project requirements, prioritizes features based on business goals, and represents the stakeholders.
 * **Scrum Master:** Facilitates agile processes, helps remove blockers for the team, and organizes key meetings like stand-ups and sprint reviews.
+
+* ---
+
+### UI Component Patterns
+
+This project will utilize a component-based architecture to build a scalable and maintainable front-end. This approach promotes code reusability and consistency across the application. The following key components will be planned and developed:
+
+* **Navbar:** The navigation bar will serve as the header for all pages. It will include the site logo, a search bar for properties, user navigation links (e.g., profile, messages), and a responsive menu for mobile devices.
+* **Property Card:** This component will represent a single property listing. It will feature a property image, basic details such as price, location, and rating, and a "favorite" button. The card will have a responsive layout to display correctly on different screen sizes.
+* **Footer:** The footer, located at the bottom of every page, will contain essential site links (e.g., About Us, Help Center), company information, social media links, and copyright information.
