@@ -44,3 +44,23 @@ The design for this project prioritizes user experience to create an intuitive a
 ### **Importance of User-Friendly Design**
 
 A well-designed booking system is paramount to the success of an application like this. It directly impacts user trust and engagement. By providing a clear and intuitive interface, users feel confident in their ability to navigate the site, find what they need, and complete a transaction without frustration. This reduces bounce rates, increases conversion rates, and ultimately leads to a higher level of customer satisfaction.
+
+---
+
+### Figma Design Specifications
+
+Identifying and documenting the design properties from a mockup is a fundamental step in translating a visual design into a functional web application. It ensures that the final product is a pixel-perfect and accurate representation of the designer's vision, leading to a consistent and professional user experience. This practice is crucial for maintaining brand integrity and a unified aesthetic across all pages.
+
+#### **Color Styles**
+
+* **Primary:** `#FF5A5F`
+* **Secondary:** `#008489`
+* **Background:** `#FFFFFF`
+* **Text:** `#222222`
+* **Secondary Text:** `#717171`
+
+#### **Typography**
+
+* **Primary Font:** Circular, Medium (500), 16px
+* **Headings:** Circular, Bold (700), 24px-32px
+* **Secondary Text:** Circular, Book (400), 14px
