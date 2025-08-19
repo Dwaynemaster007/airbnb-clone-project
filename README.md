@@ -119,12 +119,11 @@ A clear team structure is vital for success. Here's a breakdown of the key roles
 
 ---
 
-### API Endpoints Overview 📌
+### Team Roles 🤝
 
-#### **REST API Endpoints**
+The success of the backend project depends on well-defined roles and collaboration. Here are the responsibilities for each key role on the team:
 
-* **Users:** `GET/POST /users/`, `GET/PUT/DELETE /users/{user_id}/`
-* **Properties:** `GET/POST /properties/`, `GET/PUT/DELETE /properties/{property_id}/`
-* **Bookings:** `GET/POST /bookings/`, `GET/PUT/DELETE /bookings/{booking_id}/`
-* **Payments:** `POST /payments/`
-* **Reviews:** `GET/POST /reviews/`, `GET/PUT/DELETE /reviews/{review_id}/`
+* **Backend Developer:** Responsible for implementing API endpoints, designing and defining the database schemas, and writing the core business logic. They ensure that the backend is robust, scalable, and performs efficiently.
+* **Database Administrator:** Manages all aspects of the PostgreSQL database, including schema design, data migration, and performance optimization through indexing and query tuning.
+* **DevOps Engineer:** Handles the deployment, monitoring, and scaling of the backend services. They are responsible for setting up and maintaining the CI/CD pipelines and ensuring a consistent development environment using Docker.
+* **QA Engineer:** Ensures the quality of the backend functionalities by writing and executing test cases. They perform API testing, identify bugs, and work with developers to resolve issues before deployment.
