@@ -1,6 +1,8 @@
 # StayEase: The AirBnB Clone Project 🏡
 A full-stack web application that replicates the core features of Airbnb, including property browsing, detailed listings, and a secure booking process. This project focuses on implementing a responsive UI/UX, building robust backend APIs, and mastering version control with Git. 🏠💻
 
+# StayEase: The AirBnB Clone Project 🏡
+
 ## 🚀 Frontend: Project Overview
 
 This is the frontend component of our full-stack AirBnB clone. We're building a functional web application that allows users to browse property listings, view detailed information, and complete bookings. Our focus is on creating a responsive and intuitive user interface using a component-based architecture.
@@ -102,4 +104,90 @@ The success of the backend project depends on well-defined roles and collaborati
 * **Django REST Framework:** An extension of Django that provides tools for creating, managing, and securing RESTful APIs.
 * **PostgreSQL:** A powerful, open-source relational database used for storing and managing all project data. Its robust features make it ideal for handling complex relationships between entities.
 * **GraphQL:** A flexible query language for APIs that allows clients to request exactly the data they need, reducing over-fetching and under-fetching.
-* **Celery:** An asynchronous task queue used for handling long-running processes, such as sending
+* **Celery:** An asynchronous task queue used for handling long-running processes, such as sending email notifications or processing payments, without blocking the main application.
+* **Redis:** An in-memory data structure store used as a cache to speed up data retrieval and reduce the load on the database.
+* **Docker:** A containerization platform that packages the application and its dependencies into a single, consistent unit, ensuring the application runs the same way in all environments.
+* **CI/CD Pipelines:** Automated pipelines (e.g., using GitHub Actions) for continuous integration (testing code changes) and continuous deployment (deploying to production), ensuring a fast and reliable development workflow.
+
+---
+
+### Database Design 📊
+
+The database is structured to support the core functionalities of the application. The primary entities and their relationships are as follows:
+
+* **Users:**
+    * **Fields:** `user_id` (Primary Key), `username`, `email`, `password_hash`, `registration_date`.
+    * **Relationships:** A User can create many Properties and many Bookings.
+
+* **Properties:**
+    * **Fields:** `property_id` (Primary Key), `title`, `description`, `price_per_night`, `location`, `owner_id` (Foreign Key to Users).
+    * **Relationships:** A Property belongs to one User and can have multiple Bookings and Reviews.
+
+* **Bookings:**
+    * **Fields:** `booking_id` (Primary Key), `start_date`, `end_date`, `total_price`, `status`, `user_id` (Foreign Key to Users), `property_id` (Foreign Key to Properties).
+    * **Relationships:** A Booking belongs to a specific User and a specific Property.
+
+* **Reviews:**
+    * **Fields:** `review_id` (Primary Key), `rating`, `comment`, `review_date`, `user_id` (Foreign Key to Users), `property_id` (Foreign Key to Properties).
+    * **Relationships:** A Review belongs to a specific User and a specific Property.
+
+* **Payments:**
+    * **Fields:** `payment_id` (Primary Key), `amount`, `payment_date`, `status`, `booking_id` (Foreign Key to Bookings).
+    * **Relationships:** A Payment is directly linked to a specific Booking.
+
+---
+
+### Feature Breakdown 📋
+
+* **User Management:** This feature handles user registration, secure authentication, and profile management. It is crucial for personalizing the user experience and ensuring only authenticated users can perform actions like booking properties.
+* **Property Management:** This feature allows hosts to create, update, and manage their property listings. It is a core function of the application, providing the content for users to browse and book.
+* **Booking System:** The booking system enables users to reserve properties for specific dates. It is central to the application's business model, managing the process of reserving properties and preventing double-bookings.
+* **Payment Processing:** This feature securely handles all financial transactions. Its reliability is critical for the application's profitability and for building user trust by ensuring secure payments.
+* **Review System:** The review system allows users to rate and leave feedback on properties. It is vital for building a community, establishing trust, and providing valuable information to future users.
+
+---
+
+### API Security 🔒
+
+API security is paramount to protecting both the application and its users. The following measures will be implemented to ensure data integrity and privacy:
+
+* **Authentication:** This verifies the identity of users trying to access the API. It is crucial for protecting user data and ensuring that only the correct person can modify their profile or view their private bookings.
+* **Authorization:** This ensures that authenticated users have the necessary permissions to perform a specific action. For instance, a regular user should not be able to delete another user's property listing.
+* **Rate Limiting:** This controls the number of API requests a client can make in a given time period. It protects the API from denial-of-service (DoS) attacks and ensures fair usage for all clients.
+
+---
+
+### CI/CD Pipeline 🚀
+
+A **CI/CD pipeline** (Continuous Integration/Continuous Deployment) is a series of automated steps that enable developers to deliver code changes more frequently and reliably.
+
+* **Continuous Integration (CI):** This involves automatically building and testing code every time a change is pushed to the repository. This helps to catch bugs early and ensures the codebase is always in a working state.
+* **Continuous Deployment (CD):** This automates the process of deploying the code to a live server after it has passed all tests. This minimizes manual errors and speeds up the release cycle.
+* **Tools:** Tools like **GitHub Actions** can be used to set up the pipeline. **Docker** ensures that the application environment is consistent across development, testing, and production.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
