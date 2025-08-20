@@ -1,8 +1,6 @@
 # StayEase: The AirBnB Clone Project 🏡
 A full-stack web application that replicates the core features of Airbnb, including property browsing, detailed listings, and a secure booking process. This project focuses on implementing a responsive UI/UX, building robust backend APIs, and mastering version control with Git. 🏠💻
 
-# StayEase: The AirBnB Clone Project 🏡
-
 ## 🚀 Frontend: Project Overview
 
 This is the frontend component of our full-stack AirBnB clone. We're building a functional web application that allows users to browse property listings, view detailed information, and complete bookings. Our focus is on creating a responsive and intuitive user interface using a component-based architecture.
