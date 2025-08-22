@@ -7,7 +7,7 @@ This is the frontend component of our full-stack AirBnB clone. We're building a 
 
 ### Tech Stack 💻
 
-* **Frontend:** HTML, CSS, JavaScript (React or similar framework)
+* **Frontend:** HTML, CSS, JavaScript (React or similar framework) <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
 * **Version Control:** Git and GitHub
 * **Design Tools:** Figma for UI/UX design
 
@@ -98,13 +98,13 @@ The success of the backend project depends on well-defined roles and collaborati
 
 ### Technology Stack 🛠️
 
-* **Django:** A high-level Python web framework used for building the RESTful API and handling business logic.
+* **Django:** A high-level Python web framework used for building the RESTful API and handling business logic. <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a>
 * **Django REST Framework:** An extension of Django that provides tools for creating, managing, and securing RESTful APIs.
 * **PostgreSQL:** A powerful, open-source relational database used for storing and managing all project data. Its robust features make it ideal for handling complex relationships between entities.
 * **GraphQL:** A flexible query language for APIs that allows clients to request exactly the data they need, reducing over-fetching and under-fetching.
 * **Celery:** An asynchronous task queue used for handling long-running processes, such as sending email notifications or processing payments, without blocking the main application.
 * **Redis:** An in-memory data structure store used as a cache to speed up data retrieval and reduce the load on the database.
-* **Docker:** A containerization platform that packages the application and its dependencies into a single, consistent unit, ensuring the application runs the same way in all environments.
+* **Docker:** A containerization platform that packages the application and its dependencies into a single, consistent unit, ensuring the application runs the same way in all environments. <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
 * **CI/CD Pipelines:** Automated pipelines (e.g., using GitHub Actions) for continuous integration (testing code changes) and continuous deployment (deploying to production), ensuring a fast and reliable development workflow.
 
 ---
