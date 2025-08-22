@@ -7,9 +7,9 @@ This is the frontend component of our full-stack AirBnB clone. We're building a 
 
 ### Tech Stack 💻
 
-* **Frontend:** HTML, CSS, JavaScript (React or similar framework) <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-* **Version Control:** Git and GitHub
-* **Design Tools:** Figma for UI/UX design
+* **Frontend:** HTML, CSS, JavaScript (React or similar framework) <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+* **Version Control:** Git and GitHub <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
+* **Design Tools:** Figma for UI/UX design <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
 
 ---
 
@@ -100,10 +100,10 @@ The success of the backend project depends on well-defined roles and collaborati
 
 * **Django:** A high-level Python web framework used for building the RESTful API and handling business logic. <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a>
 * **Django REST Framework:** An extension of Django that provides tools for creating, managing, and securing RESTful APIs.
-* **PostgreSQL:** A powerful, open-source relational database used for storing and managing all project data. Its robust features make it ideal for handling complex relationships between entities.
+* **PostgreSQL:** A powerful, open-source relational database used for storing and managing all project data. Its robust features make it ideal for handling complex relationships between entities. </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
 * **GraphQL:** A flexible query language for APIs that allows clients to request exactly the data they need, reducing over-fetching and under-fetching.
 * **Celery:** An asynchronous task queue used for handling long-running processes, such as sending email notifications or processing payments, without blocking the main application.
-* **Redis:** An in-memory data structure store used as a cache to speed up data retrieval and reduce the load on the database.
+* **Redis:** An in-memory data structure store used as a cache to speed up data retrieval and reduce the load on the database. <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> </p>
 * **Docker:** A containerization platform that packages the application and its dependencies into a single, consistent unit, ensuring the application runs the same way in all environments. <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
 * **CI/CD Pipelines:** Automated pipelines (e.g., using GitHub Actions) for continuous integration (testing code changes) and continuous deployment (deploying to production), ensuring a fast and reliable development workflow.
 
